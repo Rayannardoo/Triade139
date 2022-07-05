@@ -1,0 +1,61 @@
+.APR{
+    color: green;
+    text-align: center;
+}
+
+.caixa-verde{
+    background-color: green;
+    text-align: center;
+    margin-top: 155px;
+    height: 375px;
+    width: 650px;
+    margin-left: 450px;
+    font-size: 32px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    
+}
+
+.count-wrapper{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 .6rem;
+    margin-top: 60px;
+}
+
+.count-wrapper div{
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.count-wrapper span{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: .2rem 0;
+    
+}
+
+.alert{
+    animation: alert 1s linear infinite alternate;
+}
+
+@keyframes alert{
+    0%{background-color: darkgreen}
+    100%{
+        background-color: black; 
+    }
+}
